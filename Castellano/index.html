@@ -16,24 +16,50 @@
     <script src="scripts/location.js" type="text/javascript"></script>
  </head>
   <body>
-
-    <div data-role="page" id="indice">
+          
+      <div data-role="page" id="indice">
         <div data-role="header">
            <h1>Castellano PAU</h1>
     </div> 
     <div data-role="control">
            <label for="slider-fill">Input slider:</label>
 <input type="range" name="slider-fill" id="slider-fill" value="50" min="0" max="100" data-highlight="true">
-
-    </div>   
+    </div>
     <div data-role="content">
            <ul data-role="listview">
-            <li><a href="acura.html">Literatura</a></li>
-            <li><a href="audi.html">Comentario pragmático</a></li>
+            <li><a href="#Literatura" data-transition="flip">Literatura</a></li>
+            <li><a href="#Comentariopragmático" data-transition="flip">Comentario pragmático</a></li>
            </ul>
     </div>
    </div>
     
+      
+      <div data-role="page" id="Literatura">
+            <div data-role="header">
+                <h1>Autores de literatura</h1>
+      
+                <div data-role="content">
+                <p>
+                    Las siguientes son algunas de las principales tecnolog&iacute;as, lenguajes
+                    y/o plataformas que utilizo en la
+                    actualidad para desarrollar soluciones:
+                </p>
+                <ul>
+                    <li>PHP OOP</li>
+                    <li>CSS3</li>
+                    <li>HTML5</li>
+                    <li>JavaScript OOP</li>
+                    <li>jQuery &amp; jQuery Mobile</li>
+                    <li>Python</li>
+                    <li>MySQL Server</li>
+                    <li>Linux, Windows &amp; Android</li>
+                </ul>
+                <p class="centrado">
+                    <a href="#info" data-role="button" data-icon="back"
+                    data-inline="true" data-transition="flow">Atr&aacute;s</a>
+                </p>
+            </div>
+      
     
     <script type="text/javascript">
         document.addEventListener('deviceready', function () {
