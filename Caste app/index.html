@@ -19,7 +19,7 @@
     
         <div data-role="page" >
             <div data-role="header" data-position="fixed">
-                <!--<a href="..." data-role="button" data-transition="flow" data-icon="bars" data-iconpos="notext" class="ui-btn-right"></a>-->
+                <a href="#mypanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right"></a>
                 <h1>Castellano app</h1>
             </div>
             
@@ -28,31 +28,23 @@
                 <p>
                     Aplicación creada para repaso, los contenidos estas resumidos.
                 </p>
-                
-                <ul data-role="listview">
+                <ul data-role="listview">
                     <li><a href="literatura.html" data-transition="slide">Literatura</a></li>
                     <li><a href="Comentario.html" data-transition="slide">Comentario pragmático</a></li>
-                    <li><a href="#mypanel">Tus notas</a></li>
                 </ul>
             
-                <div data-role="panel" id="mypanel" data-display="overlay" data-position="right">
-                    <ul>
-                    
-                    <li><a href="x">Nota 1</a></li>
-                        <li><a hrefr="xs">Nota 2</a></li>
-                    
-                    </ul>
-                    
-                    </div>                      
-                     <div><!-- /panel -->
- 
-                   <!-- header -->
-                   <!-- content -->
-                   <!-- footer -->
- 
-                    </div>  
-            
-            
+                <div data-role="panel" id="mypanel" data-display="overlay" data-position="right" data-theme="a">
+                 <ul>
+                   <li><label for="basic">Notas Comentario:</label>
+                      <input type="text" name="name" id="basic" value=""  /></li>
+                   <li><label for="basic">Notas Literatura:</label>
+                      <input type="text" name="name" id="basic" value=""  /></li>
+                   <li><label for="search-basic">Búsqueda rápida:</label>
+                      <input type="search" name="search" id="search-basic" value="" /></li>
+                 </ul>
+                </div>                      
+                      
+                               
             </div>
             <div data-role="footer" data-position="fixed">
             </div>
