@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html>
 <head>
     <meta charset="UTF-8" />
@@ -17,15 +18,10 @@
     <script src="scripts/location.js" type="text/javascript"></script>
 </head>
 <body>
-    
         <div data-role="page" data-position="fixed">
             <div data-role="header" data-position="fixed">
-                <a href="index.html" data-role="button"  data-icon="back" data-iconpos="notext" data-transition="flow">Back</a>
-               
-                
-                
-                
-                <a href="index.html" data-role="button" data-transition="flow" data-icon="bars" data-iconpos="notext" class="ui-btn-right"></a>
+                <a href="index.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
+                <a href="#mypanel" data-role="button" data-transition="flow" data-icon="bars" data-iconpos="notext" class="ui-btn-right"></a>
                 <h1>Literatura</h1>
             </div>    
             <div data-role="content">
@@ -38,13 +34,25 @@
                     <li><a href="#Isabel">Isabel Allende</a></li>
                     <li><a href="#Miguel">Miguel Hernández</a></li>
                 </ul>
+                
+                <div data-role="panel" id="mypanel" data-display="overlay" data-position="right" data-theme="a">
+                 <ul>
+                      <li><label for="search-basic">Búsqueda rápida:</label>
+                      <input type="search" name="search" id="search-basic" value="" /></li>
+                     <li><a href="#mypanel" data-role="button" data-icon="back" data-theme="a">Exit</a></li>
+                 </ul>
+                </div>         
             </div>                
-           
-            <div data-role="footer" data-position="fixed">
-                <p class="centrado"></p>
-            </div>
+             <div data-role="footer" data-position="fixed">
+            </div>
+           
            </div>
-             
-                         
-    </body>
+    
+        <script type="text/javascript">
+        document.addEventListener('deviceready', function () {
+            navigator.splashscreen.hide();
+        }, false);
+    </script>
+    
+  </body>
 </html>
