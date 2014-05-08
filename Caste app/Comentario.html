@@ -54,29 +54,45 @@
                                       
                <div data-role="panel" id="mypanel" data-display="overlay" data-position="right" data-theme="a">
                  <ul>
-                      <li><label for="search-basic">Búsqueda rápida:</label>
-                      <input type="search" name="search" id="search-basic" value="" /></li>
+                      <li>...</li>
                      <li><input type="submit" onclick="exitFromApp()" value="Salir" data-theme="a"/></li>
                  </ul>
                 </div>          
             </div>
-           <div data-role="footer" data-position="fixed"></div>
+            <div data-role="footer" data-position="fixed"><h1></h1></div>
         </div>
             
         
         <div data-role="page" id="ade" data-position="fixed" data-transition="slide">
-             <div data-role="header"><h1>Adecuación</h1></div>                   
-              <div data-role="content"><p>Holaaaaa</p></div>
-               <div data-role="footer"><h1></h1></div>
+            <div data-role="header"><h1>Adecuación</h1>
+             <a href="#choes" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="#coher" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>       
+           </div>                   
+            <div data-role="content"><p>Holaaaaa</p></div>
+            <div data-role="footer" data-position="fixed"><h1></h1></div>
         </div> 
-            
-            
- 
-     <script type="text/javascript">
-        document.addEventListener('deviceready', function () {
-            navigator.splashscreen.hide();
-        }, false);
-    </script>
     
-    </body>
+
+        <div data-role="page" id="coher" data-position="fixed" data-transition="slide">
+            <div data-role="header"><h1>Coherencia</h1>
+             <a href="#ade" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="#choes" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>     
+            </div>                   
+            <div data-role="content"><p>Holaaaaa</p></div>
+            <div data-role="footer" data-position="fixed"><h1>fdfgf</h1></div>
+        </div> 
+    
+    
+    
+     <div data-role="page" id="cohes" data-position="fixed" data-transition="slide">
+            <div data-role="header"><h1>Cohesión</h1>
+             <a href="#choer" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="#ade" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>       
+            </div>                   
+            <div data-role="content"><p>Holaaaaa</p></div>
+            <div data-role="footer" data-position="fixed"><h1>dfdfdf</h1></div>
+      </div> 
+ 
+    
+      </body>
 </html>
