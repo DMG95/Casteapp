@@ -43,34 +43,48 @@
             <div data-role="header" data-position="fixed">
                 <a href="literatura.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
                 <a href="#mypanel" data-role="button" data-transition="flow" data-icon="bars" data-iconpos="notext" class="ui-btn-right"></a>
-                <h1>Valle-Inclan</h1>
+                <h1>Miguel Hernández</h1>
                 
             </div>  
             
             <div data-role="content"> 
                 
                  <ul data-role="listview" data-inset="true">
+                    
                     <li><a href="#tra">Tradición y vanguardia</a></li>
                     <li><a href="#evo">Evolución de su poesía</a></li>
                     <li><a href="#com">Compromiso</a></li>
                     <li><a href="#len">Lenguaje poético</a></li>
                    
                 </ul>
+            
+                
+                <div data-role="panel" id="mypanel" data-display="overlay" data-position="right" data-theme="a">
+                 <ul>
+                     <li><input type="submit" onclick="exitFromApp()" value="Salir" data-theme="a"/></li>
+                     <li><a href="index.html" data-role="button" data-icon="home" data-transition="flow" data-theme="a"></a></li>
+                 </ul>
+                </div>       
+            
+            
+            
             </div>
-            <div data-role="footer" data-position="fixed"></div>
+            <div data-role="footer" data-position="fixed"><h1></h1></div>
             
           
          
          <div data-role="page" id="tra" data-position="fixed">
          <div data-role="header" data-position="fixed">
+             <a href="Mugiel.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
              <h1>Tradición y vanguardia</h1>
-                <a href="#pro" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-                <a href="#nar" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
          </div>
          <div data-role="content">
          
          </div>
-         <div data-role="footer" data-position="fixed"><h1></h1></div>
+         <div data-role="footer" data-position="fixed">
+             <a href="#len" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+             <a href="#evo" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
+         </div>
      </div>
     
             
@@ -79,14 +93,16 @@
                
          <div data-role="page" id="evo" data-position="fixed">
          <div data-role="header" data-position="fixed">
+             <a href="Mugiel.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
              <h1>Evolución de su poesía</h1>
-                <a href="#pro" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-                <a href="#nar" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
-         </div>
+               </div>
          <div data-role="content">
          
          </div>
-         <div data-role="footer" data-position="fixed"><h1></h1></div>
+         <div data-role="footer" data-position="fixed">
+             <a href="#tra" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="#com" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
+         </div>
      </div>
     
             
@@ -95,14 +111,18 @@
                
          <div data-role="page" id="com" data-position="fixed">
          <div data-role="header" data-position="fixed">
+             <a href="Mugiel.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
+             
+             
              <h1>Compromiso</h1>
-                <a href="#pro" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-                <a href="#nar" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
          </div>
          <div data-role="content">
          
          </div>
-         <div data-role="footer" data-position="fixed"><h1></h1></div>
+         <div data-role="footer" data-position="fixed">
+             <a href="#evo" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+              <a href="#len" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
+             </div>
      </div>
     
             
@@ -111,14 +131,16 @@
                
          <div data-role="page" id="len" data-position="fixed">
          <div data-role="header" data-position="fixed">
+             <a href="Mugiel.html" data-role="button"  data-icon="back"  data-transition="flow">Back</a>
              <h1>Realismo mágico</h1>
-                <a href="#pro" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
-                <a href="#nar" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
-         </div>
+          </div>
          <div data-role="content">
          
          </div>
-         <div data-role="footer" data-position="fixed"><h1></h1></div>
+         <div data-role="footer" data-position="fixed">
+             <a href="#com" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+                <a href="#tra" data-role="button" data-icon="arrow-r" data-iconpos="notext"></a>
+             </div>
      </div>
     
             
