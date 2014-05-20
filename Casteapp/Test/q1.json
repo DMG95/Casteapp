@@ -1,10 +1,10 @@
 {
 	"introduction":"¿Cuanto sabes de literatura?", 
 	"questions":[
-		{"question":"¿Cuantos narradores hay en "LCDLE"?", 
+		{"question":"¿Cuantos narradores hay en LCDLE?", 
 		 "answers":["3, uno omnisciente","3, en tercera persona","3, uno omnisciente y dos en tercera","Kittens"],
 		 "correct":3},
-		{"question":"¿"LDB" Respeta las tres unidades clásicas?", 
+		{"question":"¿LDB Respeta las tres unidades clásicas?", 
 		 "answers":["Solo acción","Solo tiempo","Solo espacio","No ninguna"],
 		 "correct":2}
         {"question":"¿Con que símbolos identifica MH al bando republicano?", 
