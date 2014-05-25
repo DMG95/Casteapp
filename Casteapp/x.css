@@ -1,7 +1,32 @@
-#img{
+@media only screen and (max-width: 320px) {
+
+#vi{
     
-    bacground: url (lf.jpg) ;
-    bacground-position:center;
+    background-image: url (vi.jpg) ;
+    background-position: center;
     max-width: 100%;
-    width: auto\9;
+    width: auto\10;
+}
+
+#mh{
+    
+    background-image: url (mh.jpg) ;
+    background-position: center;
+    max-width: 100%;
+    width: auto\10;
+}
+
+#ia{
+    
+    background-image: url (ia.jpg) ;
+    background-position: center;
+    max-width: 100%;
+    width: auto\10;
+}
+
+
+#ul{
+    font-size: 2em;
+    }
+ 
 }
