@@ -4,20 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
-        <title>Test</title>
+        <title>Quiz Demo</title>
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
-        <script>
-                jQuery('div').live('pagehide', function(event, ui){
-                var page = jQuery(event.target);
-               if(page.attr('data-cache') == 'never'){
-              page.remove();
-             };
-           });
-      </script>   
-    
-    
     </head> 
     
     <body> 
@@ -25,15 +15,11 @@
         <div data-role="page" id="quizPage">
             
             <div data-role="header">
-                <h1>Test de literatura</h1>
-                <a href="../index.html" data-role data-icon="home" data-transitios="flow">Home</a>
+                <h1>Test</h1>
             </div>
             
             <div data-role="content">
 				<div class="quizdisplay"></div>
-                <p>Esta parte de la aplicación es un test en el que deberas responder las preguntas correctamente si quieres volver a la app</p>
-                <p>Las preguntas son bastante generales sobre la literatura que entra para el selectivo, auqnue es un nivel facil en un futuro se podra reformar y hacerlo para que realmente sirva de algo XD</p>
-                <a href="Test.html" data-role="button" data-transition="slide">Al test</a>
             </div>
             
             <div data-role="footer" data-position="fixed">

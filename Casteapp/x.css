@@ -1,11 +1,10 @@
-@media only screen and (max-width: 320px) {
 
 #vi{
     
     background-image: url (vi.jpg) ;
     background-position: center;
     max-width: 100%;
-    width: auto\10;
+    width: auto\9;
 }
 
 #mh{
@@ -13,7 +12,7 @@
     background-image: url (mh.jpg) ;
     background-position: center;
     max-width: 100%;
-    width: auto\10;
+    width: auto\9;
 }
 
 #ia{
@@ -22,11 +21,4 @@
     background-position: center;
     max-width: 100%;
     width: auto\10;
-}
-
-
-#ul{
-    font-size: 2em;
-    }
- 
 }
